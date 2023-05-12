@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "prop-types": "~15.7.2",
+    "react-scroll-lock": "^1.0.0",
+    "react-scrolllock": "^5.0.1",
     "resize-observer-polyfill": "^1.5.0"
   },
   "devDependencies": {
@@ -48,9 +50,8 @@
     "nps": "^5.7.1",
     "nps-utils": "^1.4.0",
     "prettier": "^1.6.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-images": "^1.0.0",
+    "react": "^18.2.0",
+    "react-images": "^1.2.0-beta.7",
     "react-sortable-hoc": "^1.9.1",
     "react-test-renderer": "^16.1.1",
     "rollup": "^1.0.0",
@@ -60,10 +61,7 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.14"
   },
-  "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
-  },
+  "peerDependencies": {},
   "scripts": {
     "build": "nps build",
     "build:docs": "NODE_ENV=production nps build:docs",
